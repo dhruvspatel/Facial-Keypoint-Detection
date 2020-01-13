@@ -10,7 +10,7 @@ In this project, my objective is to detect `68 facial keypoints` of a human face
 
 ### 1. Dataset Exploration and Transformation:
 
-##### What are facial keypoints?
+#### What are facial keypoints?
 
 
 
@@ -23,12 +23,11 @@ Facial keypoints (also called facial landmarks) mark important areas of the face
 
 Here I have used the [YouTube Faces Dataset](https://www.cs.tau.ac.il/~wolf/ytfaces/). It consists of 5770 color images. All of these images are separated into either a training or a test set of data.
 
-3462 of these images are training images
-2308 are test images
+3462 of these images are training images and 2308 are test images.
 
  In each training and test image, there is a single face and 68 keypoints, with coordinates (x, y), for that face.
  
-##### Data Transformations:
+#### Data Transformations:
  
  Neural networks often expect images that are standardized; a fixed size, with a normalized range for color ranges and coordinates, and (for PyTorch) converted from numpy lists and arrays to tensors. Therefore I have created 4 functions which will help in the required transformations:
  
