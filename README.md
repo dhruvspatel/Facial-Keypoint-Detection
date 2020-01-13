@@ -1,6 +1,6 @@
 # Facial Keypoint Detection
 
-<img src='images/header.jpeg'>
+<img src='images/header.jpeg' width="70%" height="70%">
 
 ## Objective
 
@@ -12,7 +12,7 @@ In this project, my objective is to detect 68 facial keypoints of a human face b
 
 ##### What are facial keypoints?
 
-<img src='images/landmarks_numbered.jpg'>
+<img src='images/landmarks_numbered.jpg' width="70%" height="70%">
 
 Facial keypoints (also called facial landmarks) mark important areas of the face: the eyes, corners of the mouth, the nose, etc. These keypoints are relevant for a variety of tasks, such as face filters, emotion recognition, pose recognition, and so on. Here they are, numbered, and you can see that specific ranges of points match different portions of the face.
 
@@ -58,17 +58,17 @@ Results on images after training:
 
 For testing the model, I have first taken a random image and I have detected faces in it using Haar Cascade Classifier for face detection in the image:
 
-<img src='images/test_image.png'>
+<img src='images/test_image.png' width="70%" height="70%">
 
 The final step is to grayscale the image and pass it through our model for inference:
 
-<img src='images/final_result.png'>
+<img src='images/final_result.png' width="50%" height="50%">
 
 ### 4. Fun with keypoints:
 
 In the final notebook, I have played around with the image with all the keypoints detected. For fun, I have just cropped the eyes part of the face and replaced it with glasses as you can see below:
 
-<img src='images/face_filter_ex.png'>
+<img src='images/face_filter_ex.png' width="80%" height="80%">
 
 ## Conclusion:
 
