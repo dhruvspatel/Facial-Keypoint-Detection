@@ -4,7 +4,7 @@
 
 ## Objective
 
-In this project, my objective is to detect 68 facial keypoints of a human face by training a custom CNN model in PyTorch on the YouTube Faces Dataset. The given task is a regression problem which is to locate and allign all the keypoints on a human face.
+In this project, my objective is to detect `68 facial keypoints` of a human face by training a custom CNN model in PyTorch on the YouTube Faces Dataset. The given task is a regression problem which is to locate and allign all the keypoints on a human face.
 
 ## Project Walkthrough
 
@@ -26,7 +26,7 @@ Here I have used the [YouTube Faces Dataset](https://www.cs.tau.ac.il/~wolf/ytfa
 3462 of these images are training images
 2308 are test images
 
- In each training and test image, there is a single face and `68 keypoints`, with coordinates (x, y), for that face.
+ In each training and test image, there is a single face and 68 keypoints, with coordinates (x, y), for that face.
  
 ##### Data Transformations:
  
