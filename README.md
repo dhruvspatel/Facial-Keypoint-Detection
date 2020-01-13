@@ -30,13 +30,13 @@ Here I have used the [YouTube Faces Dataset](https://www.cs.tau.ac.il/~wolf/ytfa
 #### Data Transformations:
  
  Neural networks often expect images that are standardized; a fixed size, with a normalized range for color ranges and coordinates, and (for PyTorch) converted from numpy lists and arrays to tensors. Therefore I have created 4 functions which will help in the required transformations:
- 
- <img src='images/transformations.png' width="80%" height="80%">
- 
+  
 -  ``Normalize``: to convert a color image to grayscale values with a range of [0,1] and normalize the keypoints to be in a range of about [-1, 1]
 -  ``Rescale``: to rescale an image to a desired size.
 -  ``RandomCrop``: to crop an image randomly.
 -  ``ToTensor``: to convert numpy images to torch images.
+
+<img src='images/transformations.png' width="80%" height="80%">
 
 ### 2. Training the Network:
 
