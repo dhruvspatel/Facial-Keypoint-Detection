@@ -50,7 +50,7 @@ Please see the `models.py` file for the code.
 
 Results on images before training:
 
-Here the green keypoints are the ground truth and the magenta keypoints are predicted by the model.
+Here the green keypoints represent the ground truth and the magenta keypoints are predicted by the model.
 
 <img src='images/before_training.png'>
 
